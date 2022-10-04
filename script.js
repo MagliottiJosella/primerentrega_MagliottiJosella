@@ -56,24 +56,25 @@ while(opcion== 1){
 
 
             // eleccion dia disponible
-            let dia=prompt("elija el dia de la semana que prefiere: lunes/martes/viernes");
+            let dia=prompt("elija el dia de la semana que prefiere tomar el turno: lunes/martes/viernes");
             // eleccion horario disponible
             if (dia.toLowerCase()=="lunes") {
         
-                let horario=parseInt(prompt("elija el horario disponible: 1- 10hs , 2- 13hs , 3- 16hs"));
+                let horario=parseInt(prompt("elij el numero de la opcion del horario disponible que quiere tomar: 1- 10hs , 2- 13hs , 3- 16hs"));
         
                 switch (horario) {
                     case 1:
                         horario=10;
-                        
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                         break;
                     case 2:
                         horario=13;
-                       
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                         break;
         
                     case 3:
                         horario=16;
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                        
                         break;       
                 
@@ -84,23 +85,26 @@ while(opcion== 1){
         
                         break;
                 }
-                alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;            
+              
             } 
              else if (dia.toLowerCase()=="martes") {
         
-                let horario=parseInt(prompt("elija el horario disponible: 1- 9hs , 2- 15hs , 3- 18hs"));
+                let horario=parseInt(prompt("elija el numero de la opcion del horario disponible que quiere tomar: 1- 9hs , 2- 15hs , 3- 18hs"));
                 switch (horario) {
                     case 1:
                         horario=9;
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                         
                         break;
                     case 2:
                         horario=15;
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                        
                         break;
         
                     case 3:
                         horario=18;
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                         
                         break;       
                 
@@ -114,19 +118,18 @@ while(opcion== 1){
         
                 
         
-                alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
-                
+               
                }else if (dia.toLowerCase()=="viernes") {
         
-                let horario=parseInt(prompt("elija el horario disponible: 1- 11hs , 2- 19hs "));
+                let horario=parseInt(prompt("elija el numero de la opcion del horario disponible que quiere tomar 1- 11hs , 2- 19hs "));
                 switch (horario) {
                     case 1:
                         horario=9;
-                        console.log(horario);
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                         break;
                     case 2:
                         horario=15;
-                        console.log(horario);
+                        alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                         break;
            
                 
@@ -137,7 +140,7 @@ while(opcion== 1){
         
                         break;
                 }
-                alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
+              
                 
                }
                else{
@@ -157,16 +160,16 @@ while(opcion== 1){
                     switch (horario) {
                         case 1:
                             horario=10;
-                            console.log(horario);
+                            alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                             break;
                         case 2:
                             horario=13;
-                            console.log(horario);
+                            alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                             break;
             
                         case 3:
                             horario=16;
-                            console.log(horario);
+                            alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                             break;       
                     
                         default:
@@ -176,7 +179,7 @@ while(opcion== 1){
             
                             break;
                     }
-                    alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
+                    
                 } 
                  else if (dia.toLowerCase()=="jueves") {
             
@@ -184,16 +187,16 @@ while(opcion== 1){
                     switch (horario) {
                         case 1:
                             horario=9;
-                            console.log(horario);
+                            alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                             break;
                         case 2:
                             horario=15;
-                            console.log(horario);
+                            alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                             break;
             
                         case 3:
                             horario=18;
-                            console.log(horario);
+                            alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
                             break;       
                     
                         default:
@@ -203,7 +206,7 @@ while(opcion== 1){
             
                             break;
                     }
-                    alert("Gracias por su reserva"+ " "+ nombre+"."+ " El turno es el dia "+" "+ dia +" en el horario"+" "+ horario+"hs."+" Muchas gracias ROMA_BARBERIA !!")   ;  
+                  
             
                     
             
